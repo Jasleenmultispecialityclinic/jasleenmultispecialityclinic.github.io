@@ -497,3 +497,45 @@ cursor:pointer;
 .gallery img:hover{
 transform:scale(1.05);
 }
+
+.bottom-bar{
+position:fixed;
+bottom:0;
+left:0;
+width:100%;
+background:#ffffff;
+display:flex;
+justify-content:space-around;
+align-items:center;
+padding:10px 5px;
+box-shadow:0 -5px 20px rgba(0,0,0,.15);
+z-index:9999;
+}
+
+.bottom-bar a{
+flex:1;
+margin:0 5px;
+text-align:center;
+text-decoration:none;
+background:#0057d9;
+color:#fff;
+padding:12px 8px;
+border-radius:12px;
+font-weight:600;
+font-size:15px;
+transition:.3s;
+}
+
+.bottom-bar a:hover{
+background:#003fa8;
+}
+
+body{
+padding-bottom:85px;
+}
+
+@media(min-width:769px){
+.bottom-bar{
+display:none;
+}
+}
