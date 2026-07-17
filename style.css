@@ -465,3 +465,14 @@ color:#FFD700;
 font-size:22px;
 margin-bottom:15px;
 }
+
+#location{
+padding:70px 20px;
+}
+
+#location iframe{
+width:100%;
+border:none;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.12);
+}
