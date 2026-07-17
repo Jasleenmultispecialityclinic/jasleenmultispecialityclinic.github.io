@@ -295,6 +295,25 @@ loading="lazy">
 
 <input type="text" id="name" placeholder="Your Name" required>
 
+  <select id="doctor" required>
+<option value="">Select Doctor</option>
+<option value="Dr. Jasleen Kaur">Dr. Jasleen Kaur</option>
+<option value="Dr. Arun Yadav">Dr. Arun Yadav</option>
+  </select>
+  <select id="time" required>
+<option value="">Preferred Time</option>
+<option>09:00 AM</option>
+<option>10:00 AM</option>
+<option>11:00 AM</option>
+<option>12:00 PM</option>
+<option>01:00 PM</option>
+<option>02:00 PM</option>
+<option>03:00 PM</option>
+<option>04:00 PM</option>
+<option>05:00 PM</option>
+<option>06:00 PM</option>
+<option>07:00 PM</option>
+</select>
 <input type="tel" id="mobile" placeholder="Mobile Number" required>
 
 <input type="text" id="problem" placeholder="Problem / Disease" required>
@@ -331,12 +350,34 @@ var name=document.getElementById("name").value;
 var mobile=document.getElementById("mobile").value;
 var problem=document.getElementById("problem").value;
 var date=document.getElementById("date").value;
-
+var doctor=document.getElementById("doctor").value;
+var time=document.getElementById("time").value;
 var message="📅 *New Appointment Request*%0A%0A"
 +"👤 Name: "+name+"%0A"
+  <select id="doctor" required>
+<option value="">Select Doctor</option>
+<option value="Dr. Jasleen Kaur">Dr. Jasleen Kaur</option>
+<option value="Dr. Arun Yadav">Dr. Arun Yadav</option>
+</select>
 +"📞 Mobile: "+mobile+"%0A"
+  +"👨‍⚕️ Doctor: "+doctor+"%0A"
++"🕒 Time: "+time+"%0A"
 +"🩺 Problem: "+problem+"%0A"
 +"📆 Preferred Date: "+date;
+  <select id="time" required>
+<option value="">Preferred Time</option>
+<option>09:00 AM</option>
+<option>10:00 AM</option>
+<option>11:00 AM</option>
+<option>12:00 PM</option>
+<option>01:00 PM</option>
+<option>02:00 PM</option>
+<option>03:00 PM</option>
+<option>04:00 PM</option>
+<option>05:00 PM</option>
+<option>06:00 PM</option>
+<option>07:00 PM</option>
+</select>
 
 window.open("https://wa.me/919417101456?text="+message,"_blank");
 
@@ -346,6 +387,5 @@ window.open("https://wa.me/919417101456?text="+message,"_blank");
 
 </body>
   
-</body>
 
 </html>
