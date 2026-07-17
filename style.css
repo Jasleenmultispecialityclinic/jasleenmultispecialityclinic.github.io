@@ -239,8 +239,10 @@ margin-top:10px;
 }
 
 }
-.hero{
-position:relative;
+.hero{height:100vh;
+width:100%;
+min-height:100vh;
+positi.doctor-card img{on:relative;
 height:100vh;
 overflow:hidden;
 display:flex;
@@ -249,7 +251,7 @@ justify-content:center;
 text-align:center;
 }
 
-.hero-bg{
+.hero-bg{object-fit:cover;
 position:absolute;
 top:0;
 left:0;
