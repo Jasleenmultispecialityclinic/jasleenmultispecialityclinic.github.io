@@ -1,13 +1,198 @@
-*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
-body{background:#f4f8fc;color:#222}
-header{background:#0b66d6;color:#fff;text-align:center;padding:25px}
-.hero{text-align:center;padding:50px 20px;background:linear-gradient(#eaf5ff,#fff)}
-.hero h2{font-size:2rem;color:#0b66d6}
-.btn{display:inline-block;margin:10px;padding:12px 22px;background:#0b66d6;color:#fff;text-decoration:none;border-radius:30px}
-.wa{background:#25D366}
-.card{background:#fff;margin:20px;padding:20px;border-radius:18px;box-shadow:0 8px 18px rgba(0,0,0,.1)}
-.card img{width:100%;border-radius:12px}
-.doctor{display:flex;gap:20px;align-items:center}
-.doctor img{width:140px;height:140px;object-fit:cover}
-footer{background:#0b66d6;color:#fff;text-align:center;padding:20px;margin-top:30px}
-@media(max-width:768px){.doctor{flex-direction:column;text-align:center}}
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#f4f8fc;
+color:#222;
+}
+
+.header{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+background:rgba(0,86,179,.95);
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 8%;
+z-index:1000;
+backdrop-filter:blur(8px);
+box-shadow:0 5px 20px rgba(0,0,0,.15);
+}
+
+.logo{
+font-size:24px;
+font-weight:700;
+color:#fff;
+}
+
+nav a{
+color:#fff;
+text-decoration:none;
+margin-left:25px;
+font-weight:500;
+transition:.3s;
+}
+
+nav a:hover{
+color:#ffd54f;
+}
+
+.hero{
+height:100vh;
+background:url("clinic.jpg.png") center/cover no-repeat;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+position:relative;
+}
+
+.overlay{
+width:100%;
+height:100%;
+background:rgba(0,45,98,.65);
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+padding:20px;
+}
+
+.overlay h1{
+font-size:58px;
+color:#fff;
+margin-bottom:20px;
+}
+
+.overlay p{
+font-size:22px;
+color:#fff;
+max-width:700px;
+margin-bottom:35px;
+}
+
+.buttons{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.call,
+.whatsapp{
+padding:15px 32px;
+border-radius:40px;
+text-decoration:none;
+font-size:18px;
+font-weight:600;
+transition:.3s;
+}
+
+.call{
+background:#0d6efd;
+color:#fff;
+}
+
+.call:hover{
+background:#0046ad;
+transform:translateY(-4px);
+}
+
+.whatsapp{
+background:#25D366;
+color:#fff;
+}
+
+.whatsapp:hover{
+background:#179848;
+transform:translateY(-4px);
+}
+
+#about{
+padding:90px 8%;
+text-align:center;
+}
+
+#about h2{
+font-size:42px;
+color:#0056b3;
+margin-bottom:20px;
+}
+
+#about p{
+font-size:18px;
+max-width:900px;
+margin:auto;
+line-height:1.8;
+}
+
+.counter{
+margin-top:50px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:25px;
+}
+
+.counter div{
+background:#fff;
+padding:30px;
+border-radius:18px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.counter div:hover{
+transform:translateY(-8px);
+}
+
+.counter h3{
+font-size:42px;
+color:#0d6efd;
+margin-bottom:10px;
+}
+
+.counter p{
+font-size:17px;
+}
+
+@media(max-width:768px){
+
+.header{
+flex-direction:column;
+padding:15px;
+}
+
+nav{
+margin-top:10px;
+}
+
+nav a{
+margin:0 8px;
+font-size:14px;
+}
+
+.overlay h1{
+font-size:34px;
+}
+
+.overlay p{
+font-size:16px;
+}
+
+.call,.whatsapp{
+width:90%;
+text-align:center;
+}
+
+#about h2{
+font-size:30px;
+}
+
+}
