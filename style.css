@@ -14,7 +14,34 @@ line-height:1.6;
 
 /* Header */
 
-.header{
+.header{.header{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+background:#0066cc;
+padding:12px 20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+z-index:999;
+}
+
+.logo{
+color:#fff;
+font-size:22px;
+font-weight:700;
+}
+
+nav a{
+color:#fff;
+text-decoration:none;
+margin-left:18px;
+font-weight:600;
+}
+
+body{padding-top:70px;
+}
 position:sticky;
 top:0;
 z-index:999;
