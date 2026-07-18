@@ -606,7 +606,7 @@ transform:scale(1.05);
 
 .floating-book{
 position:fixed;
-right:20px;
+right:15px;
 bottom:140px;
 background:#0d6efd;
 color:#fff;
