@@ -403,16 +403,20 @@ title="Jasleen Multi-Speciality Clinic Location">
 </div>
 <form id="appointmentForm">
 
+<label for="name">Full Name</label>
 <input type="text" id="name" placeholder="Full Name" required>
 
+<label for="mobile">Mobile Number</label>
 <input type="tel" id="mobile" placeholder="Mobile Number" required>
 
+<label for="doctor">Doctor</label>
 <select id="doctor" required>
 <option value="">Select Doctor</option>
 <option>Dr. Jasleen Kaur (Women's Health)</option>
 <option>Dr. Arun Kumar Yadav (General Physician)</option>
 </select>
 
+<label for="department">Department</label>
 <select id="department" required>
 <option value="">Select Department</option>
 <option>General Medicine</option>
@@ -423,8 +427,10 @@ title="Jasleen Multi-Speciality Clinic Location">
 <option>Emergency</option>
 </select>
 
+<label for="date">Appointment Date</label>
 <input type="date" id="date" required>
 
+<label for="slot">Time Slot</label>
 <select id="slot" required>
 <option value="">Select Time Slot</option>
 <option>09:00 AM - 10:00 AM</option>
@@ -438,9 +444,10 @@ title="Jasleen Multi-Speciality Clinic Location">
 <option>07:00 PM - 08:00 PM</option>
 </select>
 
+<label for="problem">Describe Your Problem</label>
 <textarea id="problem" placeholder="Describe Your Problem"></textarea>
 
-<button type="submit">
+<button type="submit" aria-label="Book Appointment on WhatsApp">
 Book Appointment on WhatsApp
 </button>
 
