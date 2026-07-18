@@ -603,3 +603,23 @@ cursor:pointer;
 .gallery img:hover{
 transform:scale(1.05);
 }
+
+.floating-book{
+position:fixed;
+right:20px;
+bottom:95px;
+background:#0d6efd;
+color:#fff;
+padding:14px 18px;
+border-radius:50px;
+text-decoration:none;
+font-weight:700;
+box-shadow:0 8px 20px rgba(0,0,0,.25);
+z-index:999;
+transition:.3s;
+}
+
+.floating-book:hover{
+background:#0056d2;
+transform:scale(1.08);
+}
