@@ -1,1 +1,4 @@
+User-agent: *
+Allow: /
 
+Sitemap: https://jasleenmultispecialityclinic.github.io/sitemap.xml
