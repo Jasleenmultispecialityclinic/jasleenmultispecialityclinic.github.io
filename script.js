@@ -99,3 +99,15 @@ nav.classList.toggle("active");
 });
 
 }
+
+// Loader
+
+window.addEventListener("load",()=>{
+
+setTimeout(()=>{
+
+document.getElementById("loader").style.display="none";
+
+},1200);
+
+});
