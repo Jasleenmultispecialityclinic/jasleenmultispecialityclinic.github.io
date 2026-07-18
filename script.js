@@ -4,26 +4,32 @@
 
 const form = document.getElementById("appointmentForm");
 
-if (form) {
+if(form){
 
-form.addEventListener("submit", function(e){
+form.addEventListener("submit",function(e){
 
 e.preventDefault();
 
-const name = document.getElementById("name").value.trim();
+const name=document.getElementById("name").value;
+const mobile=document.getElementById("mobile").value;
+const doctor=document.getElementById("doctor").value;
+const department=document.getElementById("department").value;
+const date=document.getElementById("date").value;
+const slot=document.getElementById("slot").value;
+const problem=document.getElementById("problem").value;
 
-const mobile = document.getElementById("mobile").value.trim();
-
-const problem = document.getElementById("problem").value.trim();
-
-const text =
-`*New Appointment Request*%0A%0A` +
-`👤 Name: ${name}%0A` +
-`📞 Mobile: ${mobile}%0A` +
-`🩺 Problem: ${problem}`;
+const message=
+`*🩺 New Appointment Request*%0A%0A`+
+`👤 Name: ${name}%0A`+
+`📱 Mobile: ${mobile}%0A`+
+`👨‍⚕️ Doctor: ${doctor}%0A`+
+`🏥 Department: ${department}%0A`+
+`📅 Date: ${date}%0A`+
+`🕒 Time Slot: ${slot}%0A`+
+`📝 Problem: ${problem}`;
 
 window.open(
-`https://wa.me/919417101456?text=${text}`,
+`https://wa.me/919417101456?text=${message}`,
 "_blank"
 );
 
