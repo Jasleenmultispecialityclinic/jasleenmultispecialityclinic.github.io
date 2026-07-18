@@ -795,3 +795,26 @@ box-shadow:0 5px 15px rgba(0,0,0,.08);
 margin-bottom:30px;
 text-align:center;
 }
+
+.faq{
+padding:70px 20px;
+background:#f8fafc;
+}
+
+.faq h2{
+text-align:center;
+margin-bottom:35px;
+}
+
+.faq-item{
+background:#fff;
+padding:20px;
+margin-bottom:18px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.faq-item h3{
+color:#2563eb;
+margin-bottom:10px;
+}
