@@ -284,6 +284,9 @@ SBS Nagar, Punjab
 Monday – Sunday<br>
 9:00 AM – 8:00 PM
 </p>
+  <p id="clinic-status" style="font-weight:bold;font-size:20px;color:green;">
+🟢 Checking...
+</p>
 
 </div>
 
@@ -361,7 +364,29 @@ target="_blank">
 
 <script>
 
-function sendWhatsApp(){
+function sendWhatsApp(){var now = new Date();
+
+var hour = now.getHours();
+
+var status = document.getElementById("clinic-status");
+
+if(status){
+
+if(hour>=9 && hour<20){
+
+status.innerHTML="🟢 Clinic is OPEN";
+
+status.style.color="green";
+
+}else{
+
+status.innerHTML="🔴 Clinic is CLOSED";
+
+status.style.color="red";
+
+}
+
+}
 
 var name=document.getElementById("name").value;
 var mobile=document.getElementById("mobile").value;
