@@ -102,12 +102,14 @@ nav.classList.toggle("active");
 
 // Loader
 
-window.addEventListener("load",()=>{
+window.addEventListener("load", function () {
 
-setTimeout(()=>{
+const loader = document.getElementById("loader");
 
-document.getElementById("loader").style.display="none";
+if(loader){
 
-},1200);
+loader.remove();
+
+}
 
 });
