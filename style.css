@@ -142,13 +142,14 @@ color:#fff;
 border-radius:50px;
 font-weight:600;
 text-decoration:none;
-transition:.3s;
+transition: all .3s ease;
 box-shadow:0 8px 20px rgba(37,99,235,.3);
 }
 
 .btn:hover{
 background:#1d4ed8;
-transform:translateY(-3px);
+transform:translateY(-4px);
+box-shadow:0 12px 30px rgba(37,99,235,.35);
 }
 
 .blue{
@@ -159,9 +160,6 @@ background:#2563eb;
 background:#22c55e;
 }
 
-.btn:hover{
-transform:translateY(-4px);
-}
 
 /*==============================
 COMMON SECTION
