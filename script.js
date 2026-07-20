@@ -19,8 +19,8 @@ const slot=document.getElementById("slot").value;
 const problem=document.getElementById("problem").value;
 
 const paymentid=document.getElementById("paymentid").value;
-const message =
-`📌 New Appointment Request
+const message = `
+📌 New Appointment Request
 
 👤 Name: ${name}
 📱 Mobile: ${mobile}
@@ -29,7 +29,8 @@ const message =
 📅 Date: ${date}
 🕒 Time Slot: ${slot}
 📝 Problem: ${problem}
-💳 Payment ID: ${paymentid}`;
+💳 Payment ID: ${paymentid}
+`.trim();
 localStorage.setItem("appointmentMessage", message);
 
 window.location.href = "payment.html";
