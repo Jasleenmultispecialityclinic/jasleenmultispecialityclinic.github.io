@@ -29,10 +29,9 @@ const message=
 `🕒 Time Slot: ${slot}%0A`+
 `📝 Problem: ${problem}%0A` +
 `💳 Payment ID: ${paymentid}`;
-window.open(
-'payment.html',
-"_self"
-);
+localStorage.setItem("appointmentMessage", message);
+
+window.location.href = "payment.html";
 
 });
 
