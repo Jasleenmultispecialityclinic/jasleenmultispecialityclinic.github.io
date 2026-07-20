@@ -30,8 +30,8 @@ const message=
 `📝 Problem: ${problem}%0A` +
 `💳 Payment ID: ${paymentid}`;
 window.open(
-`https://wa.me/919417101456?text=${message}`,
-"_blank"
+'payment.html',
+"_self"
 );
 
 });
