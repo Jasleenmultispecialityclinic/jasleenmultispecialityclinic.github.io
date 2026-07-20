@@ -25,7 +25,7 @@ if (continueBtn) {
         }
 
         const phone = "919417101456"; // WhatsApp number
-        const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+        const url = `https://wa.me/${phone}?text=${message}`;
 
         window.location.href = url;
     });
