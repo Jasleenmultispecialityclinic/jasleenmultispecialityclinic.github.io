@@ -19,16 +19,17 @@ const slot=document.getElementById("slot").value;
 const problem=document.getElementById("problem").value;
 
 const paymentid=document.getElementById("paymentid").value;
-const message=
-`*🩺 New Appointment Request*%0A%0A`+
-`👤 Name: ${name}%0A`+
-`📱 Mobile: ${mobile}%0A`+
-`👨‍⚕️ Doctor: ${doctor}%0A`+
-`🏥 Department: ${department}%0A`+
-`📅 Date: ${date}%0A`+
-`🕒 Time Slot: ${slot}%0A`+
-`📝 Problem: ${problem}%0A` +
-`💳 Payment ID: ${paymentid}`;
+const message =
+`📌 New Appointment Request
+
+👤 Name: ${name}
+📱 Mobile: ${mobile}
+👨‍⚕️ Doctor: ${doctor}
+🏥 Department: ${department}
+📅 Date: ${date}
+🕒 Time Slot: ${slot}
+📝 Problem: ${problem}
+💳 Payment ID: ${paymentid}`;
 localStorage.setItem("appointmentMessage", message);
 
 window.location.href = "payment.html";
