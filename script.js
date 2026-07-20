@@ -18,6 +18,7 @@ const date=document.getElementById("date").value;
 const slot=document.getElementById("slot").value;
 const problem=document.getElementById("problem").value;
 
+const paymentid=document.getElementById("paymentid").value;
 const message=
 `*🩺 New Appointment Request*%0A%0A`+
 `👤 Name: ${name}%0A`+
@@ -26,8 +27,8 @@ const message=
 `🏥 Department: ${department}%0A`+
 `📅 Date: ${date}%0A`+
 `🕒 Time Slot: ${slot}%0A`+
-`📝 Problem: ${problem}`;
-
+`📝 Problem: ${problem}%0A` +
+`💳 Payment ID: ${paymentid}`;
 window.open(
 `https://wa.me/919417101456?text=${message}`,
 "_blank"
