@@ -159,7 +159,14 @@ background:#2563eb;
 .green{
 background:#22c55e;
 }
-
+.hero-trust{
+    margin-top:20px;
+    font-size:16px;
+    font-weight:600;
+    color:#ffffff;
+    line-height:1.8;
+    text-shadow:0 2px 6px rgba(0,0,0,.5);
+}
 
 /*==============================
 COMMON SECTION
