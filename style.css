@@ -167,7 +167,16 @@ background:#22c55e;
     line-height:1.8;
     text-shadow:0 2px 6px rgba(0,0,0,.5);
 }
-
+.badge{
+display:inline-block;
+padding:10px 18px;
+background:#ecfeff;
+border:1px solid #06b6d4;
+border-radius:50px;
+font-weight:600;
+font-size:14px;
+color:#0f172a;
+}
 /*==============================
 COMMON SECTION
 ==============================*/
