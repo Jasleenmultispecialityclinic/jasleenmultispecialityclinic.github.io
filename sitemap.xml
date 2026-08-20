@@ -7,17 +7,20 @@
 <changefreq>weekly</changefreq>
 <priority>1.0</priority>
 </url>
+
 <url>
-  <loc>https://jasleenmultispecialityclinic.github.io/phagwara.html</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.9</priority>
+<loc>https://jasleenmultispecialityclinic.github.io/phagwara.html</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
 </url>
-  <url>
-  <loc>https://jasleenmultispecialityclinic.github.io/jalandhar.html</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.9</priority>
+
+<url>
+<loc>https://jasleenmultispecialityclinic.github.io/jalandhar.html</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
 </url>
-  <url>
+
+<url>
 <loc>https://jasleenmultispecialityclinic.github.io/banga.html</loc>
 <changefreq>weekly</changefreq>
 <priority>0.9</priority>
@@ -46,18 +49,20 @@
 <changefreq>weekly</changefreq>
 <priority>0.9</priority>
 </url>
-  <url>
-  <loc>https://jasleenmultispecialityclinic.github.io/normal-delivery.html</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.9</priority>
+
+<url>
+<loc>https://jasleenmultispecialityclinic.github.io/normal-delivery.html</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
 </url>
 
 <url>
-  <loc>https://jasleenmultispecialityclinic.github.io/womens-health.html</loc>
-  <changefreq>weekly</changefreq>
-  <priority>0.9</priority>
+<loc>https://jasleenmultispecialityclinic.github.io/womens-health.html</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
 </url>
-  <url>
+
+<url>
 <loc>https://jasleenmultispecialityclinic.github.io/best-clinic-in-behram.html</loc>
 <changefreq>weekly</changefreq>
 <priority>0.9</priority>
@@ -140,7 +145,8 @@
 <changefreq>weekly</changefreq>
 <priority>0.9</priority>
 </url>
-  <url>
+
+<url>
 <loc>https://jasleenmultispecialityclinic.github.io/best-orthopedic-doctor-in-behram.html</loc>
 <changefreq>weekly</changefreq>
 <priority>0.9</priority>
@@ -157,4 +163,59 @@
 <changefreq>weekly</changefreq>
 <priority>0.9</priority>
 </url>
+
+
+<!-- NEW GYNECOLOGIST SEO PAGES -->
+
+<url>
+<loc>https://jasleenmultispecialityclinic.github.io/top-gynecologist-in-india.html</loc>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://jasleenmultispecialityclinic.github.io/top-gynecologist-in-punjab.html</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://jasleenmultispecialityclinic.github.io/best-gynecologist-in-india.html</loc>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://jasleenmultispecialityclinic.github.io/best-gynecologist-in-punjab.html</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+
+<!-- NEW SEXOLOGIST SEO PAGES -->
+
+<url>
+<loc>https://jasleenmultispecialityclinic.github.io/best-sexologist-in-punjab.html</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://jasleenmultispecialityclinic.github.io/best-sexologist-in-india.html</loc>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://jasleenmultispecialityclinic.github.io/top-sexologist-in-punjab.html</loc>
+<changefreq>weekly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://jasleenmultispecialityclinic.github.io/top-sexologist-in-india.html</loc>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+
 </urlset>
